@@ -4,10 +4,10 @@ __pycache__/
 .env
 .vscode/
 .idea/
-datasets/
-checkpoints/
-weights/
-outputs/
+/datasets/
+/checkpoints/
+/weights/
+/outputs/
 *.npy
 *.npz
 *.pth
