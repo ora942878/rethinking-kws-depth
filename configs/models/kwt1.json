@@ -1,0 +1,17 @@
+{
+  "dataset": "gsc12",
+  "backend": "tensorflow",
+  "steps": 23438,
+  "batch_size": 512,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.1,
+  "warmup_epochs": 10,
+  "seed": 20261007,
+  "lambda_values": [
+    0,
+    0.1
+  ],
+  "moment_warmup_epochs": 5,
+  "moment_ramp_epochs": 15
+}

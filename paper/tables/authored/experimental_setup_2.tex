@@ -1,0 +1,35 @@
+\begin{table}[H]
+    \caption{Experimental objectives and corresponding results.}
+    \label{tab:experiment_objectives}
+    \centering\small
+    \setlength{\tabcolsep}{5pt}
+    \renewcommand{\arraystretch}{1.12}
+    \begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}Xc@{}}
+        \toprule
+        \rowcolor{black!5}
+        \textbf{Experiment} & \textbf{Purpose} & \textbf{Section} \\
+        \midrule
+        Single-block deletion and reuse
+        & Quantify position sensitivity to deletion and reuse.
+        & \ref{sec:results_structure} \\
+        Multi-block deletion and reuse
+        & Measure accuracy changes with modification count and placement.
+        & \ref{sec:results_multi} \\
+        \midrule
+        Normalization adaptation
+        & Compare statistical calibration, affine adaptation, and their combination.
+        & \ref{sec:results_grid} \\
+        Recovery budgets and Full comparison
+        & Compare accuracy, computation, and time across budgets and against Full.
+        & \ref{sec:results_grid} \\
+        Recovery through inserted affine layers
+        & Compare inserted affine layers with normalization affine adaptation
+        in accuracy and parameter cost.
+        & \ref{sec:results_interface} \\
+        \midrule
+        Block-output moment regularization
+        & Evaluate effects on deletion tolerance and subsequent recovery.
+        & \ref{sec:results_training} \\
+        \bottomrule
+    \end{tabularx}
+\end{table}

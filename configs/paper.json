@@ -1,0 +1,15 @@
+{
+  "recovery_steps": 100,
+  "batch_size": 128,
+  "lr": 0.001,
+  "clip_norm": 1.0,
+  "bn_momentum": 0.1,
+  "fewshot_per_class": 5,
+  "fewshot_bn_momentum": 1.0,
+  "budget_repetitions": 3,
+  "normalization_scopes": [
+    "suffix",
+    "all"
+  ],
+  "max_deleted_or_reused": 4
+}

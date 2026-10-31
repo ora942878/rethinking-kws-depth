@@ -1,0 +1,86 @@
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.40\linewidth}>{\raggedright\arraybackslash}p{\dimexpr0.60\linewidth-2\tabcolsep\relax}@{}}
+\caption{Overview of related approaches and the focus of this work.}
+\label{tab:related_work_positioning}\\
+\toprule
+\textbf{Research focus} & \textbf{Studies and methods} \\
+\midrule
+\endfirsthead
+\caption[]{Overview of related approaches and the focus of this work (continued).}\\
+\toprule
+\textbf{Research focus} & \textbf{Studies and methods} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{2}{r}{Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\rowcolor{black!5}
+\multicolumn{2}{@{}l@{}}{\textbf{Efficient KWS Architectures}\enspace (Section~\ref{sec:related_kws})}\\*
+Survey
+& L\'opez-Espejo et al.~\cite{lopez2022overview} \\
+Compact CNNs
+& Small-footprint CNNs~\cite{sainath2015smallfootprint};
+DS-CNN~\cite{zhang2017helloedge};
+compact residual networks~\cite{tang2018reskws} \\
+Temporal and separable blocks
+& TC-ResNet~\cite{choi2019tcresnet}; BC-ResNet~\cite{kim2021bcresnet};
+MatchboxNet~\cite{majumdar2020matchboxnet}; TENet~\cite{li2020tenet} \\
+Attention and feature mixing
+& TinySpeech~\cite{wong2020tinyspeech}; KWT~\cite{berg2021kwt};
+KW-MLP~\cite{morshed2022kwmlp}; ConvMixer~\cite{ng2022convmixer} \\
+Search and hardware-aware design
+& EdgeSpeechNets~\cite{lin2018edgespeechnets};
+MicroNets~\cite{banbury2021micronets}; LiCo-Net~\cite{yang2022liconet} \\
+\midrule
+\rowcolor{black!5}
+\multicolumn{2}{@{}l@{}}{\textbf{Structural Compression and Parameter Sharing}\enspace (Section~\ref{sec:related_structure})}\\*
+Channel pruning
+& ThiNet~\cite{luo2017thinet}; Channel Pruning~\cite{he2017channelpruning};
+Network Slimming~\cite{liu2017slimming} \\
+Group pruning and dimension reduction
+& LLM-Pruner~\cite{ma2023llmpruner}; SliceGPT~\cite{ashkboos2024slicegpt} \\
+Depth reduction
+& Residual-block removal~\cite{veit2016ensembles};
+LayerPrune~\cite{elkerdawy2020layerprune};
+LayerMerge~\cite{kim2024layermerge}; ShortGPT~\cite{men2025shortgpt} \\
+Functional projection
+& HOPE~\cite{mobahi2026hope} \\
+Cross-layer sharing
+& Universal Transformers~\cite{dehghani2019universal};
+ALBERT~\cite{lan2020albert} \\
+\midrule
+\rowcolor{black!5}
+\multicolumn{2}{@{}l@{}}{\textbf{Low-Cost Recovery and Adaptation}\enspace (Section~\ref{sec:related_recovery})}\\*
+Post-compression adjustment
+& FSKD~\cite{li2020fskd}; EagleEye~\cite{li2020eagleeye} \\
+Statistical calibration
+& AdaBN~\cite{li2018adabn}; covariate-shift adaptation~\cite{schneider2020corruption};
+REPAIR~\cite{jordan2023repair} \\
+Normalization affine learning
+& BN-only training~\cite{frankle2021onlybn};
+few-shot affine adaptation~\cite{yazdanpanah2022affines}; Tent~\cite{wang2021tent} \\
+Parameter-efficient transfer
+& Adapters~\cite{houlsby2019adapters}; LoRA~\cite{hu2022lora}; SSF~\cite{lian2022ssf} \\
+Selective neuron adaptation
+& DEFT within HOPE~\cite{mobahi2026hope} \\
+\midrule
+\rowcolor{black!5}
+\multicolumn{2}{@{}l@{}}{\textbf{Structural Adaptability and Representation Alignment}\enspace (Section~\ref{sec:related_training})}\\*
+Layer bypass and replacement
+& Stochastic Depth~\cite{huang2016stochasticdepth};
+LayerDrop~\cite{fan2020layerdrop}; BERT-of-Theseus~\cite{xu2020theseus} \\
+Elastic width and depth
+& Slimmable Networks~\cite{yu2019slimmable};
+Once-for-All~\cite{cai2020ofa}; DynaBERT~\cite{hou2020dynabert} \\
+Representation distillation
+& FitNets~\cite{romero2015fitnets}; TinyBERT~\cite{jiao2020tinybert} \\
+Moment and covariance matching
+& Deep CORAL~\cite{sun2016deepcoral}; CMD~\cite{zellinger2017cmd} \\
+\midrule
+\rowcolor{black!5}
+\multicolumn{2}{@{}l@{}}{\textbf{This work}}\\*
+\textbf{Efficient block-level KWS compression}
+& Block deletion and whole-block reuse; normalization adaptation and inserted affine layers;
+block-output moment regularization \\
+\end{longtable}

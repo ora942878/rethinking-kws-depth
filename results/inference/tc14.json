@@ -1,0 +1,31 @@
+[
+  {
+    "model": "tc14",
+    "structure": "original",
+    "deleted_blocks": [],
+    "parameters": 135856,
+    "batch_size": 1,
+    "cost": {
+      "core_flops": 6061056,
+      "macs": 3030528,
+      "estimated_noncore_flops": 65168,
+      "estimated_total_flops": 6126224
+    }
+  },
+  {
+    "model": "tc14",
+    "structure": "direct",
+    "deleted_blocks": [
+      2,
+      4
+    ],
+    "parameters": 106832,
+    "batch_size": 1,
+    "cost": {
+      "core_flops": 4123392,
+      "macs": 2061696,
+      "estimated_noncore_flops": 47160,
+      "estimated_total_flops": 4170552
+    }
+  }
+]

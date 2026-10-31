@@ -1,0 +1,58 @@
+[
+  {
+    "model": "bc8",
+    "arm": "lambda_0",
+    "checkpoint": "checkpoints/bc8/reference/model.pth",
+    "results": "results/reference/bc8.jsonl",
+    "budget": "results/budgets/bc8/reference/summary.json"
+  },
+  {
+    "model": "bc8",
+    "arm": "lambda_0p1",
+    "checkpoint": "checkpoints/bc8/regularized/model.pth",
+    "results": "results/regularized/bc8.jsonl",
+    "budget": "results/budgets/bc8/regularized/summary.json"
+  },
+  {
+    "model": "tc14",
+    "arm": "lambda_0",
+    "checkpoint": "checkpoints/tc14/reference/model.pth",
+    "results": "results/reference/tc14.jsonl",
+    "budget": "results/budgets/tc14/reference/summary.json"
+  },
+  {
+    "model": "tc14",
+    "arm": "lambda_0p1",
+    "checkpoint": "checkpoints/tc14/regularized/model.pth",
+    "results": "results/regularized/tc14.jsonl",
+    "budget": "results/budgets/tc14/regularized/summary.json"
+  },
+  {
+    "model": "kwt1",
+    "arm": "lambda_0",
+    "checkpoint": "checkpoints/kwt1/reference/model.pth",
+    "results": "results/reference/kwt1.jsonl",
+    "budget": "results/budgets/kwt1/reference/summary.json"
+  },
+  {
+    "model": "kwt1",
+    "arm": "lambda_0p1",
+    "checkpoint": "checkpoints/kwt1/regularized/model.pth",
+    "results": "results/regularized/kwt1.jsonl",
+    "budget": "results/budgets/kwt1/regularized/summary.json"
+  },
+  {
+    "model": "kwmlp",
+    "arm": "lambda_0",
+    "checkpoint": "checkpoints/kwmlp/reference/model.pth",
+    "results": "results/reference/kwmlp.jsonl",
+    "budget": "results/budgets/kwmlp/reference/summary.json"
+  },
+  {
+    "model": "kwmlp",
+    "arm": "lambda_0p1",
+    "checkpoint": "checkpoints/kwmlp/regularized/model.pth",
+    "results": "results/regularized/kwmlp.jsonl",
+    "budget": "results/budgets/kwmlp/regularized/summary.json"
+  }
+]

@@ -1,0 +1,8 @@
+# Linux/Python 3.12; the recorded CUDA 12.8 build.
+--extra-index-url https://download.pytorch.org/whl/cu128
+-r common.txt
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+torchaudio==2.8.0+cu128
+numpy==2.3.5
+protobuf==7.36.2

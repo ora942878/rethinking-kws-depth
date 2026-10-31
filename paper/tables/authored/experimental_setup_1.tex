@@ -1,0 +1,19 @@
+\begin{table}[H]
+	\caption{Model sizes, normalization layers, and training code sources.}
+	\label{tab:source_models}
+	\centering\small
+	\begin{tabularx}{\textwidth}{l>{\raggedright\arraybackslash}Xrl}
+		\toprule
+		Model & Training code source & Parameters & Norm. \\
+		\midrule
+		BC-ResNet-8~\cite{kim2021bcresnet} & Authors' code (Qualcomm)~\cite{bccode}
+		& 321,068 & BN/SSN \\
+		TC-ResNet-14~\cite{choi2019tcresnet} & Authors' code (Hyperconnect)~\cite{tcresnetcode}
+		& 135,856 & BN \\
+		KWT-1~\cite{berg2021kwt} & Authors' code (Arm)~\cite{kwtcode}
+		& 607,308 & LN \\
+		KW-MLP~\cite{morshed2022kwmlp} & Authors' code (AI-Research-BD)~\cite{kwmlpcode}
+		& 424,811 & LN \\
+		\bottomrule
+	\end{tabularx}
+\end{table}

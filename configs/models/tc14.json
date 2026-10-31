@@ -1,0 +1,25 @@
+{
+  "dataset": "gsc12",
+  "backend": "tensorflow",
+  "steps": 30000,
+  "batch_size": 100,
+  "optimizer": "SGD",
+  "lr": [
+    0.1,
+    0.01,
+    0.001
+  ],
+  "boundaries": [
+    10000,
+    20000
+  ],
+  "momentum": 0.9,
+  "weight_decay": 0.001,
+  "seed": 20261007,
+  "lambda_values": [
+    0,
+    0.1
+  ],
+  "moment_warmup_epochs": 5,
+  "moment_ramp_epochs": 15
+}

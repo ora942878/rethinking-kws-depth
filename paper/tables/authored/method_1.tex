@@ -1,0 +1,25 @@
+\begin{table}[t]
+	\caption{Update rules for the selected normalization variables.}
+	\label{tab:recovery_modes}
+	\centering
+	\begin{tabular}{lll}
+		\toprule
+		Setting
+		& Running buffers $\rho$
+		& Affine parameters $\psi$ \\
+		\midrule
+		Frozen (F)
+		& Fixed, where present
+		& Fixed \\
+		Statistics-only (S)
+		& Moving-average updates
+		& Fixed \\
+		Affine-only (A)
+		& Fixed, where present
+		& Task-gradient updates \\
+		Joint (S+A)
+		& Moving-average updates
+		& Task-gradient updates \\
+		\bottomrule
+	\end{tabular}
+\end{table}

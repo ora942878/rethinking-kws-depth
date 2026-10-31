@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.vscode/
+.idea/
+datasets/
+checkpoints/
+weights/
+outputs/
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt*
+*.wav
+*.log

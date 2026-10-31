@@ -1,0 +1,13 @@
+# Install inside NVIDIA TensorFlow 25.02, which already provides the nv25.2 wheel.
+# This is not the generic PyPI tensorflow==2.17.0 build.
+-r common.txt
+tensorflow==2.17.0+nv25.2
+tf-keras==2.17.0
+tf-slim==1.1.0
+transformers==4.46.3
+humanfriendly==10.0
+overload==1.1
+colorlog==6.12.0
+python_speech_features==0.6
+numpy==1.26.4
+protobuf==4.25.8

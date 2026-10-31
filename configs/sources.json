@@ -1,0 +1,22 @@
+{
+  "bc8": {
+    "repository": "https://github.com/Qualcomm-AI-research/bcresnet",
+    "commit": "656f947a2a757ab5f36f649ed303ea0191cf553e",
+    "source_directory": "third_party/bc8"
+  },
+  "tc14": {
+    "repository": "https://github.com/hyperconnect/TC-ResNet",
+    "commit": "8ccbff3a45590247d8c54cc82129acb90eecf5c8",
+    "source_directory": "third_party/tc14"
+  },
+  "kwt1": {
+    "repository": "https://github.com/ARM-software/keyword-transformer",
+    "commit": "237e4097afd4f6851e0b82f0a8d65c2dfe8eae30",
+    "source_directory": "third_party/kwt1"
+  },
+  "kwmlp": {
+    "repository": "https://github.com/AI-Research-BD/Keyword-MLP",
+    "commit": "a87c8ac9c4d3ba01745d68cc5dcf9cd21dd67b72",
+    "source_directory": "third_party/kwmlp"
+  }
+}

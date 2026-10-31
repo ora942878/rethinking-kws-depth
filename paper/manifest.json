@@ -1,0 +1,47 @@
+{
+  "figures": {
+    "1": {
+      "directory": "fig01_method",
+      "weights": "none"
+    },
+    "2": {
+      "directory": "fig02_single_deletion",
+      "weights": "reference"
+    },
+    "3": {
+      "directory": "fig03_single_reuse",
+      "weights": "reference"
+    },
+    "4": {
+      "directory": "fig04_multi_deletion",
+      "weights": "reference"
+    },
+    "5": {
+      "directory": "fig05_multi_reuse",
+      "weights": "reference"
+    },
+    "6": {
+      "directory": "fig06_normalization_recovery",
+      "weights": "reference"
+    },
+    "7": {
+      "directory": "fig07_regularized_deletion",
+      "weights": "both"
+    },
+    "8": {
+      "directory": "fig08_regularized_recovery",
+      "weights": "both"
+    }
+  },
+  "tables": {
+    "1-4": "Authored TeX in paper/tables/authored; no numerical experiment",
+    "5": "configuration counts",
+    "6": "spaced deletion examples selected by test accuracy",
+    "7": "mean normalization recovery",
+    "8": "budget accuracy/cost/time",
+    "9": "single-sample inference cost",
+    "10": "inserted affine vs normalization affine",
+    "11": "Reference vs Regularized",
+    "12": "Regularized examples selected by test accuracy"
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "model": "bc8",
+    "structure": "original",
+    "deleted_blocks": [],
+    "parameters": 321068,
+    "batch_size": 1,
+    "cost": {
+      "core_flops": 171838656,
+      "macs": 85919328,
+      "estimated_noncore_flops": 11522028,
+      "estimated_total_flops": 183360684
+    }
+  },
+  {
+    "model": "bc8",
+    "structure": "direct",
+    "deleted_blocks": [
+      4,
+      7,
+      8,
+      12
+    ],
+    "parameters": 244268,
+    "batch_size": 1,
+    "cost": {
+      "core_flops": 156034176,
+      "macs": 78017088,
+      "estimated_noncore_flops": 8901196,
+      "estimated_total_flops": 164935372
+    }
+  }
+]

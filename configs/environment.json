@@ -1,0 +1,29 @@
+{
+  "training_gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_memory": "96 GB (nvidia-smi: 97887 MiB)",
+  "driver_version": "595.71.05",
+  "python": "3.12.3",
+  "platform": "Linux x86_64",
+  "torch": "2.8.0+cu128",
+  "torch_cuda": "12.8",
+  "tensorflow": "2.17.0+nv25.2",
+  "tensorflow_container": "nvcr.io/nvidia/tensorflow:25.02-tf2-py3",
+  "tensorflow_container_amd64_digest": "sha256:d78d5b31b7e6cd9c902e98f73a977fcdce9d47d0bc1c685b3fa94f4187e6301c",
+  "tensorflow_wheel_sha256": "edbe5ef7d3099e1c812c7420aa40bccc87be393b0e5089642548856ab0d19088",
+  "framework_requirements": {
+    "torch": "environment/torch-requirements.txt",
+    "tensorflow": "environment/tensorflow-requirements.txt"
+  },
+  "data": {
+    "name": "Speech Commands v0.02 main archive",
+    "url": "https://download.tensorflow.org/data/speech_commands_v0.02.tar.gz",
+    "dataset_info": "https://www.tensorflow.org/datasets/catalog/speech_commands",
+    "manifest_directory": "configs/manifests",
+    "protocol": {
+      "bc8": "GSC12",
+      "tc14": "GSC12",
+      "kwt1": "GSC12",
+      "kwmlp": "GSC35"
+    }
+  }
+}
