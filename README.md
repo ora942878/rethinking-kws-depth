@@ -34,7 +34,7 @@ Both conditions train from scratch; use `--lambda-max 0` or `0.1`. TC14/KWT expo
 
 ## Saved results
 
-`configs/checkpoints.json` indexes the eight weights and result files. [Download the eight checkpoints](https://drive.google.com/file/d/1qr14btgaV-_N04X3Yy0VQwRcPYGFGn-_/view?usp=sharing). Extract the archive and place its four model folders (`bc8`, `tc14`, `kwt1`, `kwmlp`) inside the repository's `checkpoints/` directory, so each weight is at `checkpoints/MODEL/{reference,regularized}/model.pth`. New outputs go to `outputs/`; published figures and tables remain in `paper/published/`.
+`configs/checkpoints.json` indexes the eight weights and result files. [Download the eight checkpoints](https://drive.google.com/file/d/1YOi9IQDotyjbDazko41GYyKUKoIxuAr0/view?usp=sharing). Extract the archive and place its four model folders (`bc8`, `tc14`, `kwt1`, `kwmlp`) inside the repository's `checkpoints/` directory, so each weight is at `checkpoints/MODEL/{reference,regularized}/model.pth`. Keep the TC14/KWT `native/` folders alongside `model.pth`; their TensorFlow weights and `config.json` are required for native feature preparation. New outputs go to `outputs/`; published figures and tables remain in `paper/published/`.
 
 Generate saved-result figures and tables without audio or weights:
 
@@ -52,5 +52,7 @@ Box centers are medians; recovery tables report means. Tables 6 and 12 show retr
 [BC-ResNet](https://github.com/Qualcomm-AI-research/bcresnet) · [TC-ResNet](https://github.com/hyperconnect/TC-ResNet) · [KWT](https://github.com/ARM-software/keyword-transformer) · [KW-MLP](https://github.com/AI-Research-BD/Keyword-MLP)
 
 Source versions: `configs/sources.json`. Original project code is MIT-licensed (see LICENSE); third-party code and adaptations retain their upstream licenses. Saved results are from completed experiments; this refactored code has not yet been run end to end.
+
+
 
 
