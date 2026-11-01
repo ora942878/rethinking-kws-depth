@@ -1,8 +1,29 @@
-# Linux/Python 3.12; the recorded CUDA 12.8 build.
+# PyTorch environment: BC8/KW-MLP training; all evaluation, recovery, costs and plots.
+# Linux, Python 3.12; CUDA 12.8.
+# Training GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition (96 GB).
+
 --extra-index-url https://download.pytorch.org/whl/cu128
--r common.txt
 torch==2.8.0+cu128
 torchvision==0.23.0+cu128
 torchaudio==2.8.0+cu128
 numpy==2.3.5
 protobuf==7.36.2
+
+# Supporting packages
+audiomentations==0.43.1
+pandas==2.3.3
+termcolor==3.3.0
+click==8.5.0
+requests==2.31.0
+six==1.17.0
+librosa==0.10.1
+numba==0.63.1
+soundfile==0.13.1
+scipy==1.17.0
+scikit-learn==1.8.0
+einops==0.8.2
+PyYAML==6.0.3
+tqdm==4.67.1
+matplotlib==3.10.5
+wandb==0.30.0
+absl-py==2.3.1

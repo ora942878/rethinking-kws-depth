@@ -1,6 +1,8 @@
-# Install inside NVIDIA TensorFlow 25.02, which already provides the nv25.2 wheel.
-# This is not the generic PyPI tensorflow==2.17.0 build.
--r common.txt
+# TC14/KWT training and native export; TensorFlow is preinstalled in the container.
+# Linux + NVIDIA Container Toolkit; run from the repository root:
+# docker run --gpus all --rm -it --ipc=host -v "$(pwd)/..:/workspace" -w /workspace/rethinking-kws-depth nvcr.io/nvidia/tensorflow:25.02-tf2-py3 bash
+# Inside the container: pip install -r environment/tensorflow-requirements.txt
+
 tensorflow==2.17.0+nv25.2
 tf-keras==2.17.0
 tf-slim==1.1.0
@@ -11,3 +13,24 @@ colorlog==6.12.0
 python_speech_features==0.6
 numpy==1.26.4
 protobuf==4.25.8
+
+# Supporting packages
+audiomentations==0.43.1
+pandas==2.3.3
+termcolor==3.3.0
+click==8.5.0
+requests==2.31.0
+six==1.17.0
+librosa==0.10.1
+numba==0.63.1
+soundfile==0.13.1
+scipy==1.17.0
+scikit-learn==1.8.0
+einops==0.8.2
+PyYAML==6.0.3
+tqdm==4.67.1
+matplotlib==3.10.5
+wandb==0.30.0
+absl-py==2.3.1
+
+
